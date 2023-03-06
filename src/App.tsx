@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className='bg-bgLightGray min-h-screen'>
+      <Navbar/>
     </div>
   );
 }
