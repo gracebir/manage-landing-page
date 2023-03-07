@@ -16,6 +16,12 @@ module.exports = {
         'clDarkBlue': 'var(--color-dark-blue)',
         'clVdarkBlue': 'var(--color-very-dark-blue)',
         'clLightGray': 'var(--color-light-gray)'
+      },
+      backgroundImage:{
+        'bgHero':"url()"
+      },
+      fontFamily:{
+        'vietnam':['Be Vietnam Pro', 'sans-serif']
       }
     },
   },
