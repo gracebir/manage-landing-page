@@ -1,15 +1,11 @@
-import About from './components/About/About';
-import Hero from './components/Hero/Hero';
-import Navbar from './components/Navbar/Navbar';
+import React from 'react'
 
 function App() {
   return (
-    <div className='bg-bgLightGray min-h-screen lg:bg-bgHero lg:bg-no-repeat bg-contain lg:bg-right-top'>
-      <Navbar/>
-      <Hero/>
-      <About/>
+    <div className="bg-black text-white flex justify-center items-center h-screen">
+      <h1 className='font-bold text-7xl'>hello world</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

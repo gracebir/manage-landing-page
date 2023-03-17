@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -18,11 +19,8 @@ module.exports = {
         'clLightGray': 'var(--color-light-gray)'
       },
       backgroundImage:{
-        'bgHero':"url()"
+        'bgHero':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1678194578/bg-tablet-pattern_zuzcxm.svg')"
       },
-      fontFamily:{
-        'vietnam':['Be Vietnam Pro', 'sans-serif']
-      }
     },
   },
   plugins: [],
