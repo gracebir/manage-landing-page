@@ -4,10 +4,14 @@ import About from './components/About/About'
 
 function App() {
   return (
-    <div className="bg-bgLightGray min-h-screen lg:bg-bgHero lg:bg-no-repeat bg-contain lg:bg-right-top">
+    <div className="bg-bgLightGray min-h-screen relative overflow-hidden">
+      <div className='absolute hidden lg:block w-1/2 min-h-screen bg-bgHero -right-32 -top-32  bg-no-repeat bg-contain'>
+      </div>
       <Navbar/>
-      <Hero/>
-      <About/>
+      <main className='z-40'>
+        <Hero/>
+        <About/>
+      </main>
     </div>
   )
 }
