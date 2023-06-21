@@ -17,3 +17,8 @@
         font-family: 'Be Vietnam Pro', sans-serif;
     }
 }
+
+.z-one::before {
+    content: '';
+    z-index: -1;
+}
