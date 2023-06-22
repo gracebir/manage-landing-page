@@ -18,7 +18,6 @@
     }
 }
 
-.z-one::before {
-    content: '';
-    z-index: -1;
+.scrollbar::-webkit-scrollbar{
+    display: none;
 }
