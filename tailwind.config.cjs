@@ -16,10 +16,14 @@ module.exports = {
         'clGrayish': 'var(--color-dark-grayish)',
         'clDarkBlue': 'var(--color-dark-blue)',
         'clVdarkBlue': 'var(--color-very-dark-blue)',
-        'clLightGray': 'var(--color-light-gray)'
+        'clLightGray': 'var(--color-light-gray)',
+        'red-color': "var(--color-bright-red)",
+
       },
       backgroundImage:{
-        'bgHero':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1678194578/bg-tablet-pattern_zuzcxm.svg')"
+        'bgHero':"url('https://res.cloudinary.com/dnzidlufh/image/upload/v1678194578/bg-tablet-pattern_zuzcxm.svg')",
+        'simple-desk': "url('https://res.cloudinary.com/dnzidlufh/image/upload/v1687451730/bg-simplify-section-desktop_kbz5ab.svg')",
+        'simple-mob': "url('https://res.cloudinary.com/dnzidlufh/image/upload/v1687451730/bg-simplify-section-mobile_lynzdg.svg')"
       },
     },
   },
