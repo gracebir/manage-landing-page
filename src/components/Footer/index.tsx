@@ -28,7 +28,7 @@ function Footer() {
             </div>
             <p className='text-gray-400 lg:block hidden'>Copyright 2020. All Rights Reserved</p>
           </div>
-          <div className='lg:col-span-2 grid grid-cols-2 justify-items-center lg:justify-items-start'>
+          <div className='lg:col-span-2 grid grid-cols-2 justify-items-center lg:justify-items-startyar'>
             <div className='flex flex-col gap-3'>
               {["Home", "Pricing", "Products", "About Us"]
                 .map((item) => (
